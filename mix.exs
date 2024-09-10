@@ -110,7 +110,8 @@ defmodule AshAuthentication.Phoenix.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ash_authentication, "~> 4.0"},
+      {:ash_authentication,
+      git: "https://github.com/kyle-neal/ash_authentication.git", branch: "feat/tfa"},
       {:ash_phoenix, "~> 2.0"},
       {:ash, "~> 3.0"},
       {:jason, "~> 1.0"},
